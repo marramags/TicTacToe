@@ -53,8 +53,8 @@ let winner =
 };
 
 /*----- cached element references -----*/
-// let squares = document.querySelectorAll('.squares');
-
+// let squares = document.querySelectorAll('squares');
+console.log(squares);
 
 
 
