@@ -117,7 +117,7 @@ LOOP over the 9 elements that represents the squares on the page
 Identify the board square via array index
 Use index of the iteration (array[i]) to access the mapped value from the board array
 
-			4.3.1.1.3) Set the background color of the current element by using the value as a key on the colors lookup object (constant).	
+			4.3.1.1.3) Set the background color of the current element by using the value as a key on the colors lookup object (constant).	w
 
 Set attribute
 set background color of the current element through key-value pairs

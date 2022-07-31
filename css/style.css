@@ -1,7 +1,50 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    /* grid-template-columns: repeat(3, auto); */
+}
+
+.grid {
+ width: 400px;
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 auto;
+}
+
 .squares {
     background-color: grey;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:  relative;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
 }
 
 h1{
     color:darkgoldenrod;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    margin: 20px auto;
+    cursor: pointer;
+    
+
 }
